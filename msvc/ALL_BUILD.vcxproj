@@ -1,0 +1,1229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5E7BAD76-C3B8-377B-8A32-7E7B8F0377F7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\curl-7.70.0\include;C:\Development\op3d_active\nghttp2-1.39.1\src\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\curl-7.70.0\include;C:\Development\op3d_active\nghttp2-1.39.1\src\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\curl-7.70.0\include;C:\Development\op3d_active\nghttp2-1.39.1\src\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Development\op3d_active\curl-7.70.0\include;C:\Development\op3d_active\nghttp2-1.39.1\src\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Development\op3d_active\curl-7.70.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Development/op3d_active/curl-7.70.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/curl-7.70.0 -BC:/Development/op3d_active/curl-7.70.0/msvc --check-stamp-file C:/Development/op3d_active/curl-7.70.0/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Development/op3d_active/curl-7.70.0/CMakeLists.txt;C:\Development\op3d_active\curl-7.70.0\CMake\CurlSymbolHiding.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindBROTLI.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindLibSSH2.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindNGHTTP2.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Macros.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\OtherTests.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Platforms\WindowsCache.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Utilities.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\cmake_uninstall.cmake.in;C:\Development\op3d_active\curl-7.70.0\CMake\curl-config.cmake.in;C:\Development\op3d_active\curl-7.70.0\CMakeLists.txt;C:\Development\op3d_active\curl-7.70.0\curl-config.in;C:\Development\op3d_active\curl-7.70.0\libcurl.pc.in;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Development\op3d_active\curl-7.70.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Development/op3d_active/curl-7.70.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/curl-7.70.0 -BC:/Development/op3d_active/curl-7.70.0/msvc --check-stamp-file C:/Development/op3d_active/curl-7.70.0/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Development/op3d_active/curl-7.70.0/CMakeLists.txt;C:\Development\op3d_active\curl-7.70.0\CMake\CurlSymbolHiding.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindBROTLI.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindLibSSH2.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindNGHTTP2.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Macros.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\OtherTests.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Platforms\WindowsCache.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Utilities.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\cmake_uninstall.cmake.in;C:\Development\op3d_active\curl-7.70.0\CMake\curl-config.cmake.in;C:\Development\op3d_active\curl-7.70.0\CMakeLists.txt;C:\Development\op3d_active\curl-7.70.0\curl-config.in;C:\Development\op3d_active\curl-7.70.0\libcurl.pc.in;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Development\op3d_active\curl-7.70.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Development/op3d_active/curl-7.70.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/curl-7.70.0 -BC:/Development/op3d_active/curl-7.70.0/msvc --check-stamp-file C:/Development/op3d_active/curl-7.70.0/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Development/op3d_active/curl-7.70.0/CMakeLists.txt;C:\Development\op3d_active\curl-7.70.0\CMake\CurlSymbolHiding.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindBROTLI.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindLibSSH2.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindNGHTTP2.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Macros.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\OtherTests.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Platforms\WindowsCache.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Utilities.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\cmake_uninstall.cmake.in;C:\Development\op3d_active\curl-7.70.0\CMake\curl-config.cmake.in;C:\Development\op3d_active\curl-7.70.0\CMakeLists.txt;C:\Development\op3d_active\curl-7.70.0\curl-config.in;C:\Development\op3d_active\curl-7.70.0\libcurl.pc.in;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Development\op3d_active\curl-7.70.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Development/op3d_active/curl-7.70.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Development/op3d_active/curl-7.70.0 -BC:/Development/op3d_active/curl-7.70.0/msvc --check-stamp-file C:/Development/op3d_active/curl-7.70.0/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Development/op3d_active/curl-7.70.0/CMakeLists.txt;C:\Development\op3d_active\curl-7.70.0\CMake\CurlSymbolHiding.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindBROTLI.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindLibSSH2.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\FindNGHTTP2.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Macros.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\OtherTests.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Platforms\WindowsCache.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\Utilities.cmake;C:\Development\op3d_active\curl-7.70.0\CMake\cmake_uninstall.cmake.in;C:\Development\op3d_active\curl-7.70.0\CMake\curl-config.cmake.in;C:\Development\op3d_active\curl-7.70.0\CMakeLists.txt;C:\Development\op3d_active\curl-7.70.0\curl-config.in;C:\Development\op3d_active\curl-7.70.0\libcurl.pc.in;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-3.14\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Development\op3d_active\curl-7.70.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Development\op3d_active\curl-7.70.0\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\ZERO_CHECK.vcxproj">
+      <Project>{F4C4B5C8-B016-3937-8B58-E49B336E3DB4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\chkdecimalpoint.vcxproj">
+      <Project>{EA5AC0B4-C20A-3BB5-AC87-B06193B73991}</Project>
+      <Name>chkdecimalpoint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\chkhostname.vcxproj">
+      <Project>{63EBDA0B-1F91-3F29-A73B-CB7FCA28D216}</Project>
+      <Name>chkhostname</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\src\curl.vcxproj">
+      <Project>{94B73B79-6C29-3CE3-8B79-EC144EB1D3B4}</Project>
+      <Name>curl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\server\disabled.vcxproj">
+      <Project>{5322CBC0-6F27-33C8-AC18-19CEA7F67292}</Project>
+      <Name>disabled</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\server\fake_ntlm.vcxproj">
+      <Project>{CFFAE9C1-9EE8-3335-8A73-04386218DB1C}</Project>
+      <Name>fake_ntlm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\server\getpart.vcxproj">
+      <Project>{229B4DDC-16AF-3783-8306-3F0D1C96239B}</Project>
+      <Name>getpart</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1156.vcxproj">
+      <Project>{3F5BF220-5C12-39E1-8BE3-8420905F9937}</Project>
+      <Name>lib1156</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1500.vcxproj">
+      <Project>{B41F5499-50D2-3F62-AE2D-326696E6E68D}</Project>
+      <Name>lib1500</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1501.vcxproj">
+      <Project>{7B3A66EF-538C-30F7-B785-2149A0768852}</Project>
+      <Name>lib1501</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1502.vcxproj">
+      <Project>{87C0B90B-7FBA-3267-AC34-21253A2A544C}</Project>
+      <Name>lib1502</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1503.vcxproj">
+      <Project>{36230EA2-EC04-3333-8718-368387777F06}</Project>
+      <Name>lib1503</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1504.vcxproj">
+      <Project>{19A71954-7ADF-3055-84A2-08E549C46424}</Project>
+      <Name>lib1504</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1505.vcxproj">
+      <Project>{8E4D4823-4826-3D54-B889-03065008E3BD}</Project>
+      <Name>lib1505</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1506.vcxproj">
+      <Project>{8F7CC423-E7E8-32E1-87CC-57D0A3DA60E0}</Project>
+      <Name>lib1506</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1507.vcxproj">
+      <Project>{2C1C11A4-4C28-3520-A5B1-CEF51ACFB446}</Project>
+      <Name>lib1507</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1508.vcxproj">
+      <Project>{3AADE822-AD7A-3610-AF58-79A286C1FD6C}</Project>
+      <Name>lib1508</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1509.vcxproj">
+      <Project>{D8B12872-5B6B-3684-A756-04CDFC824CE9}</Project>
+      <Name>lib1509</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1510.vcxproj">
+      <Project>{CEAB26A4-5F5F-3530-8B04-A70E26D7457E}</Project>
+      <Name>lib1510</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1511.vcxproj">
+      <Project>{5F0DB9CF-C583-3ACC-95C0-463C7CEA5C75}</Project>
+      <Name>lib1511</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1512.vcxproj">
+      <Project>{3C17C0E1-EE6D-3CB6-BCB3-BB3BA0CF14EB}</Project>
+      <Name>lib1512</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1513.vcxproj">
+      <Project>{29C12156-8DA6-3AD3-9C2A-E28E40B8F234}</Project>
+      <Name>lib1513</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1514.vcxproj">
+      <Project>{07C24BD6-264F-311C-BC66-49806B9F947D}</Project>
+      <Name>lib1514</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1515.vcxproj">
+      <Project>{A931E5C8-2860-38E9-805B-46E5B68A5466}</Project>
+      <Name>lib1515</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1517.vcxproj">
+      <Project>{58891F35-B24A-3228-9D7E-9DFA185786B4}</Project>
+      <Name>lib1517</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1518.vcxproj">
+      <Project>{85E762BA-9334-3E13-8AAC-D1069047E9A0}</Project>
+      <Name>lib1518</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1520.vcxproj">
+      <Project>{7911A7CF-ED67-3C82-A65D-04F894B4F139}</Project>
+      <Name>lib1520</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1521.vcxproj">
+      <Project>{01992AE2-C5D0-393B-BEB0-E4CE0303D90F}</Project>
+      <Name>lib1521</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1522.vcxproj">
+      <Project>{65A28B61-E42B-3425-BCB0-A8E1EA567F7E}</Project>
+      <Name>lib1522</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1523.vcxproj">
+      <Project>{CBA9F536-4E1F-304C-BA50-51D783BD9497}</Project>
+      <Name>lib1523</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1525.vcxproj">
+      <Project>{2E8B4B60-AEB1-3F12-915B-9A6CAB96F398}</Project>
+      <Name>lib1525</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1526.vcxproj">
+      <Project>{42858647-0C35-3500-A161-496FE028E0F0}</Project>
+      <Name>lib1526</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1527.vcxproj">
+      <Project>{518586BB-DA39-30FC-80E0-3820735EF6FA}</Project>
+      <Name>lib1527</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1528.vcxproj">
+      <Project>{C2B99170-D095-3CDE-890D-B467CCF0C761}</Project>
+      <Name>lib1528</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1529.vcxproj">
+      <Project>{62001475-63E3-37FE-AA4A-70F86D43A988}</Project>
+      <Name>lib1529</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1530.vcxproj">
+      <Project>{6B20AD61-23C9-32C0-B089-27B84FBEC092}</Project>
+      <Name>lib1530</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1531.vcxproj">
+      <Project>{C3A0B5D2-2BAD-38B4-A231-DE5EFDC3FC78}</Project>
+      <Name>lib1531</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1532.vcxproj">
+      <Project>{9605EA4C-D34D-3E67-A386-D1BEB68F66E1}</Project>
+      <Name>lib1532</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1533.vcxproj">
+      <Project>{D389DEA5-3767-31EA-B614-289551A7B5E9}</Project>
+      <Name>lib1533</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1534.vcxproj">
+      <Project>{C958F371-5025-342B-95F7-7C797DEC9D94}</Project>
+      <Name>lib1534</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1535.vcxproj">
+      <Project>{F520A0FC-7C72-3105-9CE5-A6BC36E6BFB5}</Project>
+      <Name>lib1535</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1536.vcxproj">
+      <Project>{2C254210-18A7-398D-89BB-CD997A4F4FDF}</Project>
+      <Name>lib1536</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1537.vcxproj">
+      <Project>{76E0D235-87DB-35D5-83BA-B792CBC4F6C0}</Project>
+      <Name>lib1537</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1538.vcxproj">
+      <Project>{0E145521-DEEE-3E88-BD23-5EA754E1F4B7}</Project>
+      <Name>lib1538</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1540.vcxproj">
+      <Project>{C03FA2E0-1751-3138-AB31-665B44EC00CF}</Project>
+      <Name>lib1540</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1541.vcxproj">
+      <Project>{C1D97F56-1917-33CE-9DFB-9CCB1CC021FC}</Project>
+      <Name>lib1541</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1550.vcxproj">
+      <Project>{240BD119-2531-3D2E-A1BA-E3BA53217287}</Project>
+      <Name>lib1550</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1551.vcxproj">
+      <Project>{24C625F6-5D41-3519-B7EB-39CB9C1EB713}</Project>
+      <Name>lib1551</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1552.vcxproj">
+      <Project>{7D337F73-6223-324A-B436-AB6476B1925F}</Project>
+      <Name>lib1552</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1553.vcxproj">
+      <Project>{F17FA9D8-601A-395D-87A5-43B7E3319B1F}</Project>
+      <Name>lib1553</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1554.vcxproj">
+      <Project>{D491969D-8FA3-3904-A99E-1E97362CCAB6}</Project>
+      <Name>lib1554</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1555.vcxproj">
+      <Project>{212D62A2-7223-3116-B2D7-646D096B2738}</Project>
+      <Name>lib1555</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1556.vcxproj">
+      <Project>{3435DD61-E3F7-3E3D-A701-93C5DA82A3A8}</Project>
+      <Name>lib1556</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1557.vcxproj">
+      <Project>{F2988B71-2D17-399C-B960-4767BC0A1693}</Project>
+      <Name>lib1557</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1558.vcxproj">
+      <Project>{B05F30DA-0B24-3CD0-BE41-CEE8F2F97FFA}</Project>
+      <Name>lib1558</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1559.vcxproj">
+      <Project>{DE18C380-2A7B-3601-A477-770F57E3570E}</Project>
+      <Name>lib1559</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1560.vcxproj">
+      <Project>{E6964EAA-330A-3B0C-8A02-1861A6AD1784}</Project>
+      <Name>lib1560</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1564.vcxproj">
+      <Project>{84F0C491-2C5C-38B5-BA83-DEE07F30480C}</Project>
+      <Name>lib1564</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1565.vcxproj">
+      <Project>{92D94A6C-9886-35F9-A72A-4165CBC36D48}</Project>
+      <Name>lib1565</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1591.vcxproj">
+      <Project>{C7DC9E41-BC1B-3579-9109-EB59835FA60E}</Project>
+      <Name>lib1591</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1592.vcxproj">
+      <Project>{420EBED0-A737-32A4-BE1E-980EE4569A11}</Project>
+      <Name>lib1592</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1593.vcxproj">
+      <Project>{F9F0BE4A-7677-3F09-A95F-AD0A7B3CF4EF}</Project>
+      <Name>lib1593</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1594.vcxproj">
+      <Project>{B23C4EFD-E251-3263-98F2-8E37B2CE654B}</Project>
+      <Name>lib1594</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1596.vcxproj">
+      <Project>{8516E5E4-8085-306B-8614-1FF3298EE566}</Project>
+      <Name>lib1596</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1900.vcxproj">
+      <Project>{6A4D4E34-8D45-37F2-8835-A6FA2CEED7F0}</Project>
+      <Name>lib1900</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1905.vcxproj">
+      <Project>{ABFC87BC-6FE9-371F-8951-73858A636846}</Project>
+      <Name>lib1905</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1906.vcxproj">
+      <Project>{DDDD79C4-5C0D-311D-A3D0-55B356879DDF}</Project>
+      <Name>lib1906</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1907.vcxproj">
+      <Project>{D3AD5038-F67C-31E2-A0AD-39CE8667749D}</Project>
+      <Name>lib1907</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib1908.vcxproj">
+      <Project>{5BCCF94D-1B28-3B8D-9ADA-2F2AA01C3341}</Project>
+      <Name>lib1908</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib2033.vcxproj">
+      <Project>{0A4A0149-4DF7-3C73-8D15-9D2524104080}</Project>
+      <Name>lib2033</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib500.vcxproj">
+      <Project>{77F7762F-EB89-3096-9CCE-6ED38F66DAC2}</Project>
+      <Name>lib500</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib501.vcxproj">
+      <Project>{4AD0FBD9-4C9E-36AF-A16E-79E622EF1840}</Project>
+      <Name>lib501</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib502.vcxproj">
+      <Project>{F0FE3EF8-064A-32B8-96E7-649C173AC736}</Project>
+      <Name>lib502</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib503.vcxproj">
+      <Project>{32E6C89A-91F4-3E2F-A705-F5D920C4F533}</Project>
+      <Name>lib503</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib504.vcxproj">
+      <Project>{87C9CC0F-D8E3-3525-B5FC-DFE1F2D0FE86}</Project>
+      <Name>lib504</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib505.vcxproj">
+      <Project>{31634700-CFA6-3614-AE36-994B9767467B}</Project>
+      <Name>lib505</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib506.vcxproj">
+      <Project>{13AA6A31-2400-3A84-B692-736B14DFE2A8}</Project>
+      <Name>lib506</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib507.vcxproj">
+      <Project>{3B64C74F-264D-3848-A716-70FA21856251}</Project>
+      <Name>lib507</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib508.vcxproj">
+      <Project>{C50CEC5D-2089-3CAA-A357-6336F7F33AE6}</Project>
+      <Name>lib508</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib509.vcxproj">
+      <Project>{07C73A50-62E6-3623-AD68-E6693CC84546}</Project>
+      <Name>lib509</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib510.vcxproj">
+      <Project>{07B2D7DC-74CE-385D-A1F6-3A97A4485956}</Project>
+      <Name>lib510</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib511.vcxproj">
+      <Project>{CA1E3223-B54C-3291-8305-4D64074966BF}</Project>
+      <Name>lib511</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib512.vcxproj">
+      <Project>{83B56BA5-8055-359E-88BC-6D8A47EC2F7A}</Project>
+      <Name>lib512</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib513.vcxproj">
+      <Project>{941E3EEE-7580-34CC-8510-EA4918A4C64B}</Project>
+      <Name>lib513</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib514.vcxproj">
+      <Project>{9DFE6A9A-4112-3BAA-A467-29A4C23F88A8}</Project>
+      <Name>lib514</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib515.vcxproj">
+      <Project>{EA48DAF8-98CC-39A5-B0FA-9AE278DA08BD}</Project>
+      <Name>lib515</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib516.vcxproj">
+      <Project>{F757EB59-9A36-38ED-9627-61269164622E}</Project>
+      <Name>lib516</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib517.vcxproj">
+      <Project>{A4AA5794-5E15-3C3F-8980-1BDD4BEFFCA7}</Project>
+      <Name>lib517</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib518.vcxproj">
+      <Project>{B5A3AE5D-AB0B-359E-B577-A81C23779C19}</Project>
+      <Name>lib518</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib519.vcxproj">
+      <Project>{9DDAB3E9-2EAA-309D-AFFD-4DE0FF52C022}</Project>
+      <Name>lib519</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib520.vcxproj">
+      <Project>{05DF6ABD-E145-3068-9A66-9220EE1CE3D7}</Project>
+      <Name>lib520</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib521.vcxproj">
+      <Project>{B89D4049-2345-34AB-807D-0649CDE4B28E}</Project>
+      <Name>lib521</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib523.vcxproj">
+      <Project>{0D8D1DE3-B7B5-3386-9EBE-C07A2ECA4D43}</Project>
+      <Name>lib523</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib524.vcxproj">
+      <Project>{77F3D01E-CAB8-3C80-8CC4-205E7218FEBC}</Project>
+      <Name>lib524</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib525.vcxproj">
+      <Project>{238F7093-0FD8-39D1-A32A-9AD5AF95117B}</Project>
+      <Name>lib525</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib526.vcxproj">
+      <Project>{8C1DCB45-B795-3E3C-B050-D27EA5FCE466}</Project>
+      <Name>lib526</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib527.vcxproj">
+      <Project>{23B241A1-5C21-3F19-A995-5B2D32F90889}</Project>
+      <Name>lib527</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib529.vcxproj">
+      <Project>{2F81A1B5-638E-38E9-921F-23803648F596}</Project>
+      <Name>lib529</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib530.vcxproj">
+      <Project>{90AB329F-A133-3B50-A376-9CB544E990C6}</Project>
+      <Name>lib530</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib532.vcxproj">
+      <Project>{F1A0C5CE-2085-3533-BC7A-AB52CC29DEE7}</Project>
+      <Name>lib532</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib533.vcxproj">
+      <Project>{A285C8EA-7516-34A8-A998-FDE866119924}</Project>
+      <Name>lib533</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib537.vcxproj">
+      <Project>{58B2F1F2-B472-3AD9-A845-C431C7990B9B}</Project>
+      <Name>lib537</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib539.vcxproj">
+      <Project>{1B68948A-3E53-3C47-804B-D14F8E90AA84}</Project>
+      <Name>lib539</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib540.vcxproj">
+      <Project>{F5E7C7E4-9379-3EF3-A831-5E1B12D0E571}</Project>
+      <Name>lib540</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib541.vcxproj">
+      <Project>{324BA296-68E6-339D-92DE-1958B56E9EBC}</Project>
+      <Name>lib541</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib542.vcxproj">
+      <Project>{0524981E-6B27-3935-BD8E-69E53F326351}</Project>
+      <Name>lib542</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib543.vcxproj">
+      <Project>{0D13AAC8-233D-3516-B626-70009300093F}</Project>
+      <Name>lib543</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib544.vcxproj">
+      <Project>{E01D46E1-A474-3DD4-901B-4C9D0E0F00F8}</Project>
+      <Name>lib544</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib545.vcxproj">
+      <Project>{056AF3E9-2F02-34A7-9C8D-F8512C60DCFE}</Project>
+      <Name>lib545</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib547.vcxproj">
+      <Project>{B0D765AD-4B75-3DC2-A000-BC649437C424}</Project>
+      <Name>lib547</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib548.vcxproj">
+      <Project>{667B3B36-73A4-333F-9AF0-9D3BF8CF5DC4}</Project>
+      <Name>lib548</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib549.vcxproj">
+      <Project>{B9E87057-C942-3DF9-9B0C-A7B7D6390F51}</Project>
+      <Name>lib549</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib552.vcxproj">
+      <Project>{CFB49851-AFAE-3BE6-9492-C3BAB69C3707}</Project>
+      <Name>lib552</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib553.vcxproj">
+      <Project>{640142D5-1573-3A64-B339-8DF75D1431EA}</Project>
+      <Name>lib553</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib554.vcxproj">
+      <Project>{7F68DEB5-38F6-3423-9DE4-724F50DBA0DB}</Project>
+      <Name>lib554</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib555.vcxproj">
+      <Project>{00C10828-7E3C-39F9-8681-7459160C7F40}</Project>
+      <Name>lib555</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib556.vcxproj">
+      <Project>{17AE1FD6-9508-3601-AAA8-D961684C37E2}</Project>
+      <Name>lib556</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib557.vcxproj">
+      <Project>{D339160C-5531-35BC-87FF-FC5655B3945C}</Project>
+      <Name>lib557</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib558.vcxproj">
+      <Project>{8E59A05F-21A9-3350-9E7D-26034D006AE0}</Project>
+      <Name>lib558</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib559.vcxproj">
+      <Project>{A491FC7F-D98D-3ECD-B612-1C3B47FD18A7}</Project>
+      <Name>lib559</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib560.vcxproj">
+      <Project>{33573F26-7740-3427-BF70-6F4F7FFC2376}</Project>
+      <Name>lib560</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib562.vcxproj">
+      <Project>{F147BEBA-3590-3B7D-BA09-EE372DE3BD00}</Project>
+      <Name>lib562</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib564.vcxproj">
+      <Project>{4B69555A-0268-3A06-AE67-93999045244E}</Project>
+      <Name>lib564</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib565.vcxproj">
+      <Project>{3BF11A13-4BC9-30D6-96F6-BED7619DE4AB}</Project>
+      <Name>lib565</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib566.vcxproj">
+      <Project>{E3FA56FD-A4B9-349F-BA91-FD49096CBE77}</Project>
+      <Name>lib566</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib567.vcxproj">
+      <Project>{2C8E226D-EB8C-3825-B8FC-11E65511D542}</Project>
+      <Name>lib567</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib568.vcxproj">
+      <Project>{332FE853-878B-3BB0-B902-E0B1180738E3}</Project>
+      <Name>lib568</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib569.vcxproj">
+      <Project>{8F193025-3204-34CE-A9E3-A9225F961377}</Project>
+      <Name>lib569</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib570.vcxproj">
+      <Project>{4B546A6F-31B9-3AB4-9BB5-1F28BCC1D270}</Project>
+      <Name>lib570</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib571.vcxproj">
+      <Project>{FE0305D7-0F4D-300A-ACD2-EAC0FC04D4A5}</Project>
+      <Name>lib571</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib572.vcxproj">
+      <Project>{3A2E2E1B-F35D-3A1F-AF7B-0606C0595B16}</Project>
+      <Name>lib572</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib573.vcxproj">
+      <Project>{4CE0C2C6-B0DD-3E7C-A9C8-84801BFA8951}</Project>
+      <Name>lib573</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib574.vcxproj">
+      <Project>{9B9BEC6C-691E-3EB2-BAE2-FFB2BCB37153}</Project>
+      <Name>lib574</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib575.vcxproj">
+      <Project>{A4E40B20-4934-3F75-9949-7BF1DE994DB2}</Project>
+      <Name>lib575</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib576.vcxproj">
+      <Project>{1D8B1346-FB7B-338D-81B1-CA4A5E5D74DB}</Project>
+      <Name>lib576</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib578.vcxproj">
+      <Project>{D225200B-A4E7-32C4-8A68-2DF9953EAD40}</Project>
+      <Name>lib578</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib579.vcxproj">
+      <Project>{E85FD7EE-3B27-3218-9529-BA408EFF9165}</Project>
+      <Name>lib579</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib582.vcxproj">
+      <Project>{2F3AFAA3-08AA-3172-9A78-EC4DA6EEB767}</Project>
+      <Name>lib582</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib583.vcxproj">
+      <Project>{3D62C83A-43BF-310C-92C7-AB22DDD2BAE1}</Project>
+      <Name>lib583</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib585.vcxproj">
+      <Project>{0983084D-8FE1-3F8E-9E4E-DBBB4C060818}</Project>
+      <Name>lib585</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib586.vcxproj">
+      <Project>{1EC9416B-3291-3F5E-BC4B-BFDC7CCD1C1B}</Project>
+      <Name>lib586</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib587.vcxproj">
+      <Project>{D18819AB-30C2-3C24-8FA7-60303A65F8BD}</Project>
+      <Name>lib587</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib589.vcxproj">
+      <Project>{50E5271F-E955-3204-8750-28CECD9D25FD}</Project>
+      <Name>lib589</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib590.vcxproj">
+      <Project>{D14B53B8-F8C8-36AA-8508-4224A1519EE5}</Project>
+      <Name>lib590</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib591.vcxproj">
+      <Project>{21E962FF-486F-3FA2-A4E8-96EFDE1604A7}</Project>
+      <Name>lib591</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib597.vcxproj">
+      <Project>{A58C2528-B7B6-38AF-956D-7E99A27BD20E}</Project>
+      <Name>lib597</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib598.vcxproj">
+      <Project>{87C8B6F7-3E44-30DF-BE07-F64D918542CC}</Project>
+      <Name>lib598</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib599.vcxproj">
+      <Project>{B12C2D6E-6E57-3EB9-944D-DEC7CD56B1E8}</Project>
+      <Name>lib599</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib643.vcxproj">
+      <Project>{45C94283-1BA8-3C85-B2D0-03BA526DBE55}</Project>
+      <Name>lib643</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib644.vcxproj">
+      <Project>{2F524ACC-AA6B-3727-BEB1-AE1EF3F76A9A}</Project>
+      <Name>lib644</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib645.vcxproj">
+      <Project>{02AF5A5B-F244-3844-B8DA-351C9ED8BB91}</Project>
+      <Name>lib645</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib650.vcxproj">
+      <Project>{CA1C3EB3-3F55-34F2-A10C-BD6E0428CD61}</Project>
+      <Name>lib650</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib651.vcxproj">
+      <Project>{428777C7-0CFA-372A-BAA0-7645573F6CA5}</Project>
+      <Name>lib651</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib652.vcxproj">
+      <Project>{A3C07F11-9E38-3C9E-8B38-410D89D2103A}</Project>
+      <Name>lib652</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib653.vcxproj">
+      <Project>{D13CF7D4-7CBA-3B18-AB3C-16B9834AB207}</Project>
+      <Name>lib653</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib654.vcxproj">
+      <Project>{33BC9A53-D43C-3AAE-A317-1D952326E4EC}</Project>
+      <Name>lib654</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib655.vcxproj">
+      <Project>{C22026A3-2268-3872-B781-3241263EB642}</Project>
+      <Name>lib655</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib658.vcxproj">
+      <Project>{CEBEDEEA-5332-3B6E-A583-F073BE0C7361}</Project>
+      <Name>lib658</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib659.vcxproj">
+      <Project>{A3345F12-3ECB-3B8E-A4D1-EEB8F6AF1938}</Project>
+      <Name>lib659</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib661.vcxproj">
+      <Project>{A8BEBECC-27EA-34B6-8966-3BED7187EB74}</Project>
+      <Name>lib661</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib666.vcxproj">
+      <Project>{A7B7A624-9DEB-381E-8C51-773257DC1036}</Project>
+      <Name>lib666</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib667.vcxproj">
+      <Project>{FCCC876F-A86D-3B9E-865F-F940D466B37C}</Project>
+      <Name>lib667</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib668.vcxproj">
+      <Project>{9FA102D7-9B21-3B1A-97C0-D37AE89F2BCB}</Project>
+      <Name>lib668</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib670.vcxproj">
+      <Project>{5C9E3497-8C1F-3BDA-9A51-CECA43879BFC}</Project>
+      <Name>lib670</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib671.vcxproj">
+      <Project>{51E62D30-3CA9-32D3-8111-8EAA5F2847E5}</Project>
+      <Name>lib671</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib672.vcxproj">
+      <Project>{75618694-56BF-3A7D-9A3B-E24B6056ACF2}</Project>
+      <Name>lib672</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\lib673.vcxproj">
+      <Project>{2C758BFC-70DA-38F1-B2D2-99D176A3D997}</Project>
+      <Name>lib673</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\libauthretry.vcxproj">
+      <Project>{E64E0187-1237-3DA0-B973-888CAADEF4D6}</Project>
+      <Name>libauthretry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\lib\libcurl.vcxproj">
+      <Project>{ED11A99C-6E1A-3FD8-8D09-D03C272F9818}</Project>
+      <Name>libcurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\libtest\libntlmconnect.vcxproj">
+      <Project>{2CA0818D-D64F-356E-AA9D-25A11103992B}</Project>
+      <Name>libntlmconnect</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\server\mqttd.vcxproj">
+      <Project>{553CD951-A5C7-3EB5-A0D2-D52E2C0EA93B}</Project>
+      <Name>mqttd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\server\resolve.vcxproj">
+      <Project>{9B596E64-EFB6-3951-9ECF-6A4AABF47EB9}</Project>
+      <Name>resolve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\server\rtspd.vcxproj">
+      <Project>{0E756FD4-1172-3E2D-86F8-DA9FE512E8AD}</Project>
+      <Name>rtspd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\server\sockfilt.vcxproj">
+      <Project>{CA804A02-38BA-3018-BCF9-C0BCBCDEC551}</Project>
+      <Name>sockfilt</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\server\socksd.vcxproj">
+      <Project>{E73FD260-F22C-3CF3-B6FE-59B9C569901F}</Project>
+      <Name>socksd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\server\sws.vcxproj">
+      <Project>{EA03CE42-958B-3D42-BC90-4A3606919DAA}</Project>
+      <Name>sws</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Development\op3d_active\curl-7.70.0\msvc\tests\server\tftpd.vcxproj">
+      <Project>{D9C12BCD-BE1F-317D-9EB5-BE9696B279FB}</Project>
+      <Name>tftpd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
