@@ -172,7 +172,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>libcurl-d_imp.lib;wldap32.lib;winmm.lib;ws2_32.lib;advapi32.lib;OpenSSL::SSL.lib;OpenSSL::Crypto.lib;nghttp2.lib;ZLIB::ZLIB.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;crypt32.lib;brotlienc.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
+      <AdditionalDependencies>libcurl_imp.lib;wldap32.lib;winmm.lib;ws2_32.lib;advapi32.lib;OpenSSL::SSL.lib;OpenSSL::Crypto.lib;nghttp2.lib;ZLIB::ZLIB.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;crypt32.lib;brotlienc.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -216,7 +216,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>libcurl-d_imp.lib;wldap32.lib;winmm.lib;ws2_32.lib;advapi32.lib;ssleay32.lib;libeay32.lib;;nghttp2.lib;ZLIB.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;crypt32.lib;brotlienc.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
+      <AdditionalDependencies>libcurl_imp.lib;wldap32.lib;winmm.lib;ws2_32.lib;advapi32.lib;ssleay32.lib;libeay32.lib;;nghttp2.lib;ZLIB.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;crypt32.lib;brotlienc.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -260,7 +260,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>libcurl-d_imp.lib;wldap32.lib;winmm.lib;ws2_32.lib;advapi32.lib;OpenSSL::SSL.lib;OpenSSL::Crypto.lib;nghttp2.lib;ZLIB::ZLIB.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;crypt32.lib;brotlienc.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
+      <AdditionalDependencies>libcurl_imp.lib;wldap32.lib;winmm.lib;ws2_32.lib;advapi32.lib;OpenSSL::SSL.lib;OpenSSL::Crypto.lib;nghttp2.lib;ZLIB::ZLIB.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;crypt32.lib;brotlienc.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -304,7 +304,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>libcurl-d_imp.lib;wldap32.lib;winmm.lib;ws2_32.lib;advapi32.lib;ssleay32.lib;libeay32.lib;;nghttp2.lib;ZLIB.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;crypt32.lib;brotlienc.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
+      <AdditionalDependencies>libcurl_imp.lib;wldap32.lib;winmm.lib;ws2_32.lib;advapi32.lib;ssleay32.lib;libeay32.lib;;nghttp2.lib;ZLIB.lib;brotlidec.lib;brotlienc.lib;brotlidec.lib;crypt32.lib;brotlienc.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(NGHTTP2_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(OPENSSL_DIR)\vsbuild\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BROTLI_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) </AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
