@@ -52,7 +52,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{ED11A99C-6E1A-3FD8-8D09-D03C272F9818}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>libcurl</ProjectName>
@@ -203,7 +203,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -247,7 +247,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -291,7 +291,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -335,7 +335,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -379,7 +379,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -423,7 +423,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -467,7 +467,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -511,7 +511,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -555,7 +555,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -599,7 +599,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -643,7 +643,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -687,7 +687,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\..\$(NGHTTP2_DIR)\lib\includes;..\..\..\$(NGHTTP2_DIR)\msvc\lib\includes;..\..\..\$(BROTLI_DIR)\c\include;.\..\include;..\..\lib\..;..\..\lib\..\include;.\..;..\..\lib;.\;..\..\..\$(ZLIB_DIR);..\..\..\$(CARES_DIR);..\..\..\$(OPENSSL_DIR)\include;..\..\..\$(OPENSSL_DIR)\include\openssl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
